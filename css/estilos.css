@@ -14,7 +14,7 @@ header{
 }
 
 #menu{
-	padding-left: 50%;
+	padding-left: 45%;
 	margin-top: 1.5%;
 }
 
@@ -37,6 +37,7 @@ header{
 #menu li ul li{
 	float: none;
 	background-color: rgba(0, 0, 0, 0.753);
+	padding: 7px;
 }
 
 #menu li ul {
