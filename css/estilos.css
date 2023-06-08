@@ -1,0 +1,189 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+ul, ol, li{
+	list-style: none;
+}
+
+header{
+ display: flex;
+ background-color: rgba(0, 0, 0, 0.753);
+}
+
+#menu{
+	padding-left: 50%;
+	margin-top: 1.5%;
+}
+
+
+#menu li{
+	margin-left: 15px;
+}
+
+#menu li a{
+	color: rgb(222, 173, 226);
+	display: block;
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+	background-color: rgba(0, 0, 0, 0.753);
+
+}
+
+#menu li {
+	float: left;
+}
+
+#menu li ul li{
+	float: none;
+}
+
+#menu li ul {
+	display: none;
+	position: absolute;
+	min-width: 150px;
+	background-size:auto;
+}
+
+#menu ul li a:hover + ul, #menu ul li ul:hover {
+	display: block;
+}
+
+
+#menu li a:hover{
+	background-color: #7c0ea7;
+}
+
+header{
+	margin-bottom: 10%;
+}
+
+header a{
+	text-decoration: none;
+	font-size: 2rem;
+	color: #f00ff5;
+}
+
+header div img{
+	width: 200px;
+	height: 100px;
+	margin-bottom: 0%;
+}
+
+
+
+a h4{
+	text-decoration: none;
+	color:#9052a0;
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+}
+
+
+.principal{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size:cover;
+	background-image: url(../images/OARitual_comp.jpg);
+	background-position: left;
+	background-repeat:no-repeat ;
+
+}
+
+
+.principal h2{
+	color:#9052a0;
+	width: max-content;
+	height: 0rem;
+	margin-top: 33%;
+	margin-right: 0%;
+	font-size: 5rem;
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+
+}
+
+
+
+
+.secundario{
+	margin-top: 5%;
+	margin-left: 6%;
+	margin-right: 6%;
+	display: flex;
+	
+}
+.secundario div{
+	width: 70%;
+	padding: 2%;
+	justify-content: center;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.753);
+}
+.secundario div a img{
+	width: 100%;
+	height: 90%;
+	margin-bottom: 2rem;
+}
+.secundario h4{
+	font-size: 1.9rem;
+	text-transform: uppercase;
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+}
+
+
+
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 350px;
+}
+footer img{
+	max-width: 2.9rem;
+	width: auto;
+	height: auto;
+	margin-right: .5%;
+}
+
+
+.parrafo{
+	margin-left: 10%;
+	text-align: center;
+	max-width: 1500px;
+	color: violet;
+	margin-bottom: 200px;
+	font-size: 2rem;
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+	background-color: rgba(0, 0, 0, 0.753);
+}
+
+
+.trailer{
+	text-align: center;
+	color: #a70e09;
+	font-size: 4rem;
+	font-family: 'Bebas Neue', sans-serif;
+	background-color: rgba(0, 0, 0, 0.753);
+	padding-bottom: 5%;
+}
+
+
+ .fondo{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	overflow: hidden;
+	}
+
+a{
+	text-decoration: none;
+}
