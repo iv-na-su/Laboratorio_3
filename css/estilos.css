@@ -225,3 +225,30 @@ a{
 	margin-left: 2%;
 	color: #f084f1;
 }
+
+.personajes{
+	padding-top: 2%;
+	background-color: rgba(0, 0, 0, 0.753);
+	margin-left: 10%;
+	margin-right: 10%;
+	max-width: 95%;
+	max-height: 95%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.personajes img{
+	width: 70%;
+	height: 80%;
+}
+
+.personajes h2{
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+	color: #f084f1;
+}
+
+.personajes h4{
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+	color: #f00ff5;
+}
