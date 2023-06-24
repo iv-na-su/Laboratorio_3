@@ -257,18 +257,10 @@ a{
 
 
 
-@media (max-width: 480px) { 
+@media (max-width: 576px) { 
 
 
 	footer a{
 		display: none;
 	}
 	}
-
-	@media screen and (max-width: 480px) {
-
-		footer a{
-			display: none;
-		}
-	  }
-	  
