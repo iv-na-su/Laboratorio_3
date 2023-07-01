@@ -136,7 +136,7 @@ a h4{
 
 
 
-footer{
+footer div{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -147,6 +147,23 @@ footer img{
 	width: auto;
 	height: auto;
 	margin-right: .5%;
+}
+
+#contacto{
+	margin-top: -7%;
+	display: flex;
+	border: 1px solid #2e518b;
+	padding: 10px; 
+	background-color: #7c0ea7;
+	color: rgb(222, 173, 226);
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+	border-radius: 50px; 
+	width: 5%;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 
@@ -260,7 +277,39 @@ a{
 @media (max-width: 576px) { 
 
 
-	footer a{
-		display: none;
-	}
-	}
+
+.secundario{
+	margin-left: auto;
+	margin-right: auto;
+	display:list-item;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
