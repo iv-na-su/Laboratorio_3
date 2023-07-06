@@ -273,10 +273,81 @@ a{
 }
 
 
+.formulario{
+	margin-left: 8%;
+  	margin-top: 5%;
+	background-color: rgba(0, 0, 0, 0.753);
+	display: block;
+	align-items: center;
+}
+
+.formulario label{
+	margin-top: 40%;
+	margin-right: 5%;
+	text-align:end;
+	font-size: 4rem;
+	color: #ff0808;
+}
+
+.formulario input{
+	display: inline;
+	
+	width: 30rem;
+	height: 3rem;
+}
+
+.icon{
+	display: none;
+}
+
+
+
 
 @media (max-width: 576px) { 
 
+	.icon{
+		margin-top: 7%;
+		float: right; 
+		display: block; 
+	  }
 
+	
+	  #menu{
+		padding-left: 0%;
+	  }
+
+	  nav{
+		margin-left: 50%;
+		display: inline-block;   
+		color: #000000;
+	  }
+
+	nav ul{
+		display: none;
+	}
+
+	nav:hover{
+		margin-left: 0%;
+	}
+
+	nav.responsive ul{
+		display: block;
+		background-color: #000000;
+		
+		margin-left: 0%;
+		
+	  }
+	  nav.responsive ul li{
+		display: block;
+		text-align: left;
+		padding: auto;
+		background-color: #000000;
+		
+	  }
+	  nav.responsive ul li a{
+		display: block;
+		position: relative; 
+	  }
 
 
 
