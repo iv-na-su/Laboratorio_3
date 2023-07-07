@@ -2,6 +2,7 @@
     <head>
             <link rel="shortcut icon" href="images/logo mini.png" type="image/png" />
             <link rel="stylesheet" href="css/estilos.css">    
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Righteous&display=swap" rel="stylesheet">
@@ -58,16 +59,34 @@
 
 
     <div class="formulario">
+        <h2>CONTACTA CON NOSOTROS!</h2>
+        <br>
+        <br>
+        <br>
+        <br>
         <form action="contacto.html" method="post">
             <label for="nom">NOMBRE:</label>
-            <input type="text" name="nombre" maxlength="10"  id="identificador">
+            <input type="text" name="nombre" maxlength="20"  id="identificador">
+            <br>
             <br>
             <label for="ape">APELLIDO:</label>
-            <input type="text" name="apellido" maxlength="10"  id="identificador">
-
-
-
-
+            <input type="text" name="apellido" maxlength="20"  id="identificador">
+            <br>
+            <br>
+            <label for="ape">CORREO ELECTRONICO:</label>
+            <input type="text" name="correo" maxlength="30"  id="identificador">
+            <br>
+            <br>
+            <br>
+            <br>
+        <div id="enviar">
+            <label for="coment">COMENTARIOS SOBRE LA SERIE</label>
+            <br>
+            <textarea arows="90" cols="40" maxlength="500" name="comentario"></textarea>
+            <br>
+            <br>
+            <input  type="submit" value="Enviar" id="identificador">
+        </div>
 
         </form>
     </div>

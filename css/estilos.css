@@ -274,27 +274,52 @@ a{
 
 
 .formulario{
-	margin-left: 8%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3%;
+	width: 40%;
   	margin-top: 5%;
+	color: #f00ff5;
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+
 	background-color: rgba(0, 0, 0, 0.753);
-	display: block;
-	align-items: center;
+
+}
+
+.formulario h2{
+	text-align: center;
+	font-size: 3rem;
 }
 
 .formulario label{
-	margin-top: 40%;
-	margin-right: 5%;
+	width: 10%;
+	margin-top: 50%;
 	text-align:end;
-	font-size: 4rem;
-	color: #ff0808;
+	font-size: 1.9rem;
 }
 
 .formulario input{
-	display: inline;
-	
-	width: 30rem;
-	height: 3rem;
+	float:right;
+	width: 40%;
+	height: 2rem;
 }
+.formulario textarea{
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 70%;
+	height: 10%;
+}
+
+#enviar{
+	text-align: center;
+	width: 100%;
+	display:block;
+}
+#enviar input{
+	float:unset;
+}
+
 
 .icon{
 	display: none;
@@ -481,6 +506,25 @@ a{
 .personajes h4{
 	font-size: 1.8rem;
 	
+}
+
+
+.formulario{
+width: 90%;
+}
+
+.formulario label{
+	font-size: 1.5rem;
+}
+
+.formulario input{
+	width: 50%;
+	height: 2rem;
+	font-size: 1rem;
+}
+.formulario textarea{
+	width: 90%;
+	height: 15%;
 }
 
 
