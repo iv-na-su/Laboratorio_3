@@ -16,11 +16,13 @@ header{
 #menu{
 	padding-left: 45%;
 	margin-top: 1.5%;
+
 }
 
 
 #menu li{
 	margin-left: 15px;
+	float: left;
 }
 
 #menu li a{
@@ -30,9 +32,7 @@ header{
 
 }
 
-#menu li {
-	float: left;
-}
+
 
 #menu li ul li{
 	float: none;
@@ -305,51 +305,58 @@ a{
 
 @media (max-width: 576px) { 
 
-	.icon{
-		margin-top: 7%;
-		float: right; 
-		display: block; 
-	  }
+	#menu li{
+		float: none;
+		margin-left: 0px;
+	}
 
-	
-	  #menu{
-		padding-left: 0%;
-	  }
 
-	  nav{
-		margin-left: 50%;
-		display: inline-block;   
+	  nav {
+		margin-left: -30%;
+		margin-right: 5%;
+		display:block;   
+		width: 100%;
 		color: #000000;
-	  }
-
-	nav ul{
-		display: none;
-	}
-
-	nav:hover{
-		margin-left: 0%;
-	}
-
-	nav.responsive ul{
-		display: block;
-		background-color: #000000;
+		max-height: 1px;
+		background-color: rgba(0, 0, 0, 0.753);
 		
-		margin-left: 0%;
-		
-	  }
-	  nav.responsive ul li{
-		display: block;
-		text-align: left;
-		padding: auto;
-		background-color: #000000;
-		
-	  }
-	  nav.responsive ul li a{
-		display: block;
-		position: relative; 
-	  }
+	   }
+
+	   nav ul{
+		 display:none;
+		 background-color: rgba(0, 0, 0, 0.753);
+		 float: none;
+	   }
 
 
+	   .icon{
+		 margin-top: 0%;
+		 float: right; 
+		 display: block; 
+		 background-color: rgba(0, 0, 0, 0.753);
+	   }
+	   nav.responsive ul{
+		 display:block;
+		 background-color: rgba(0, 0, 0, 0.753);
+		 
+	   }
+	   nav.responsive ul li{
+		 width: 90%;
+		 display: block;
+		 padding: 1rem;
+	   }
+
+	   nav.responsive ul li a{
+		 display: block;
+		 font-size: 2rem;
+	   }
+	   
+	   nav.responsive ul li ul {
+		width: 40%;
+		margin-top: 0%;
+		display: block;
+		
+	  }
 
 .secundario{
 	display: inline;
