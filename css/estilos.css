@@ -318,14 +318,15 @@ a{
 		width: 100%;
 		color: #000000;
 		max-height: 1px;
-		background-color: rgba(0, 0, 0, 0.753);
+		background-color: #000000;
+		
 		
 	   }
 
 	   nav ul{
+		 position: absolute;
 		 display:none;
-		 background-color: rgba(0, 0, 0, 0.753);
-		 float: none;
+		 background-color: #000000;
 	   }
 
 
@@ -336,8 +337,9 @@ a{
 		 background-color: rgba(0, 0, 0, 0.753);
 	   }
 	   nav.responsive ul{
+		
 		 display:block;
-		 background-color: rgba(0, 0, 0, 0.753);
+		 background-color: rgba(0, 0, 0, 0.883);
 		 
 	   }
 	   nav.responsive ul li{
@@ -352,7 +354,9 @@ a{
 	   }
 	   
 	   nav.responsive ul li ul {
-		width: 40%;
+		list-style: none;
+		position: absolute;
+		width: 90%;
 		margin-top: 0%;
 		display: block;
 		
